@@ -1,0 +1,123 @@
+body{
+   
+    width : 960px;
+    margin : 0 auto 0 auto;
+    font-size: 15px;
+     
+}
+h1 , h2 , h7 {
+font-family:"Comic Sans MS";
+}
+p ,li{
+    font-family: "Courier New";
+}
+#head1 , #head2{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+header{
+background-color: rgba(138 , 220 ,  78 , 0.45);
+      margin: 5px;
+    margin : 0 auto 0 auto;
+}
+.blog_posts , .side_bar,.post, .introduction_login{
+    border : solid 2px rgb(126 , 126 , 100) ;
+    border-radius: 10px;
+    
+}
+.blog_posts {
+    float : left;
+    width :71%; ;
+    clear : left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.side_bar{
+    width : 250px;
+    float:right;
+    background: 
+}
+.post {
+    margin: 5px;
+    padding : 10 10 10 10;
+}
+
+.post_head {
+    float: left;
+    width: 70%; 
+    text-decoration: none;
+    
+}
+.date{
+    float: right;
+    width: 25%;
+    padding-top: 10px;
+}
+.post_image{
+    width : 100%;
+    height: 70%;
+    
+}
+#Date_s{
+    float:right;
+}
+.post_head a{
+ text-decoration: none;
+    color : #FF33;
+}
+
+.introduction_login{
+  margin: 5px;
+    padding : 10 10 10 10;
+}
+.login_texts{
+    text-align: center;
+}
+.lo{
+    align-content: center;
+}
+.login_form {
+}
+#blogers_img {
+    width :220px;;
+}
+
+#about {
+   
+}
+.posts{
+    font-size: 1.3em;
+}
+.date_release{
+    float: right;
+    
+}
+.published_by{
+    float: left;
+}
+a:hover{
+    color: #111; 
+}
+h7{
+    color: #459;
+}
+table, th ,td {
+    border: 1px solid #993366;
+    
+}
+td{
+        vertical-align: middle;
+    padding-left: 20px;
+}
+table{
+border-collapse: collapse;
+    width: 100%;
+    height: 50%;
+}
+.first_color{
+    background-color: #B2C;
+}
+.second_color{
+    background-color: #FF5;
+}
