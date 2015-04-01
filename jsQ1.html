@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>js_one</title>  
+          
+    </head>
+
+    <body>
+          
+        <input type="text" oninput="CheckAndSubmit ()"/>
+    <script type="text/javascript">
+        function CheckAndSubmit () {
+            var field = document.querySelector ("input");
+            if(field.value.match('[AUCON]')) 
+                field.value=field.value.replace(/A|U|C|O|N/,'')
+        }
+    </script>
+    
+    </body>
+</html>
