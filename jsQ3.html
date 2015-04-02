@@ -1,0 +1,52 @@
+<html>
+<head>
+    
+    </head>
+<body>
+    <table id="studentTable">
+        <tr>
+            <td>Student Number</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td colspan="2">Age</td>
+        </tr>  
+        <tr>   
+            <td>90909090</td>   
+            <td>Steven</td>   
+            <td>Wilson</td>   
+            <td colspan="2">46</td>
+        </tr>  
+        <tr>   
+            <td><input id="studentNumber" type="text" /></td>   
+            <td><input id="firstName" type="text" /></td>   
+            <td><input id="lastName" type="text" /></td>  
+            <td><input id ="age" type="text" /></td>   
+            <td><input type="button" value="Add" onclick="newRow()"/></td>  
+        </tr> 
+    </table> 
+    <script>
+        function newRow(){
+        var table = document.getElementById("studentTable");
+        var stnum = document.getElementById("studentNumber");
+        var firstn = document.getElementById("firstName");
+        var lastn = document.getElementById("lastName");
+        var age = document.getElementById("age");
+        var table = document.getElementById("studentTable");
+            var rowww = document.getElementById("studentTable").rows.length;
+            var row = table.insertRow(rowww - 1);
+            var cell1 =row.insertCell(0);
+            cell1.innerHTML= stnum.value;
+             var cell2=row.insertCell(1);
+            cell2.innerHTML= firstn.value;    
+             var cell3 =row.insertCell(2);
+            cell3.innerHTML= lastn.value;
+             var cell4 =row.insertCell(3);
+            cell4.innerHTML= age.value;
+            
+            
+        
+        }
+        
+    </script>
+    </body>
+</html>
